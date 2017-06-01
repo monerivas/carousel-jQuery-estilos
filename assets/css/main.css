@@ -1,0 +1,44 @@
+body{
+    background-color: #121627;
+    color: #407a88;
+    
+}
+
+header{
+    padding: 2%;
+    background-color: #03091f;
+    font-size: 2vw;
+}
+
+/*----Inicio secion carrusel imagenes----*/
+.carousel{
+    padding: 2%;
+}
+
+.carousel-content {
+	display: none;
+}
+
+.carousel-content.active {
+	display: block;
+}
+
+.carousel-content>img{
+    width: 100%;
+}
+/*----Fin secion carrusel imagenes----*/
+
+
+/*----Inicio secion controles----*/
+.controls button {
+    border-radius: 100%;
+    border: 1px solid;
+    height: 10%;
+    padding: .5%;
+    width: 5%; 
+    background-color: #407a88;
+}
+.controls a{
+    font-size: 2vw;
+}
+/*----Fin secion controles----*/
